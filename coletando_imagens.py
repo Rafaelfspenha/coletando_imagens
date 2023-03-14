@@ -56,7 +56,7 @@ pyautogui.moveTo(50,300)
 pyautogui.click(button='left')
 
 
-while k <= 2:
+while k <= 200: # quantidade de imagens a baixar
 
     pyautogui.sleep(6)
     pyautogui.moveTo(750,300)
